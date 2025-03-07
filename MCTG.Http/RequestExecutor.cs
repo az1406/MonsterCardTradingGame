@@ -12,116 +12,175 @@ public class RequestExecutor
     private readonly SessionHandler _sessionHandler;
     private readonly PackageHandler _packageHandler;
     private readonly TransactionHandler _transactionHandler;
+    private readonly BattleHandler _battleHandler;
     private readonly IUserRepository _userRepository;
     private readonly ICardRepository _cardRepository;
     private readonly ILogger<RequestExecutor> _logger;
 
-    public RequestExecutor(UserHandler userHandler, SessionHandler sessionHandler, PackageHandler packageHandler, TransactionHandler transactionHandler, IUserRepository userRepository, ICardRepository cardRepository, ILogger<RequestExecutor> logger)
+    public RequestExecutor(UserHandler userHandler, SessionHandler sessionHandler, PackageHandler packageHandler, TransactionHandler transactionHandler, BattleHandler battleHandler, IUserRepository userRepository, ICardRepository cardRepository, ILogger<RequestExecutor> logger)
     {
         _userHandler = userHandler;
         _sessionHandler = sessionHandler;
         _packageHandler = packageHandler;
         _transactionHandler = transactionHandler;
+        _battleHandler = battleHandler;
         _userRepository = userRepository;
         _cardRepository = cardRepository;
         _logger = logger;
     }
 
-    public async Task<HttpResponse> ProcessAsync(string[] requestLines)
+   public async Task<HttpResponse> ProcessAsync(string[] requestLines)
+{
+    if (requestLines.Length > 0)
     {
-        if (requestLines.Length > 0)
+        string[] requestLine = requestLines[0].Split(" ");
+        if (requestLine.Length >= 2)
         {
-            string[] requestLine = requestLines[0].Split(" ");
-            if (requestLine.Length >= 2)
+            string method = requestLine[0];
+            string path = requestLine[1];
+
+            _logger.LogInformation($"Received request: {method} {path}");
+
+            switch (method)
             {
-                string method = requestLine[0];
-                string path = requestLine[1];
+                case "POST":
+                    if (path == "/transactions/packages")
+                    {
+                        return await HandlePostTransactionsPackages(requestLines);
+                    }
 
-                _logger.LogInformation($"Received request: {method} {path}");
+                    var postRequestBody = requestLines.Last();
+                    if (string.IsNullOrWhiteSpace(postRequestBody))
+                    {
+                        return HttpResponse.BadRequest("Request body is empty");
+                    }
 
-                switch (method)
-                {
-                    case "POST":
-                        var postRequestBody = requestLines.Last();
-                        if (path == "/packages")
+                    if (path == "/packages")
+                    {
+                        return await HandlePostPackages(postRequestBody, requestLines);
+                    }
+                    else if (path == "/battles")
+                    {
+                        Dictionary<string, string>? battleDetails;
+                        try
                         {
-                            return await HandlePostPackages(postRequestBody, requestLines);
+                            battleDetails = JsonSerializer.Deserialize<Dictionary<string, string>>(postRequestBody);
                         }
-                        else if (path == "/transactions/packages")
+                        catch (JsonException ex)
                         {
-                            return await HandlePostTransactionsPackages(requestLines);
+                            _logger.LogError(ex, "Error deserializing JSON request body");
+                            return HttpResponse.BadRequest("Invalid JSON format");
                         }
-                        else
+
+                        if (battleDetails == null || !battleDetails.ContainsKey("userToken") ||
+                            !battleDetails.ContainsKey("opponentToken"))
                         {
-                            Dictionary<string, string>? postUserDetails;
-                            try
-                            {
-                                postUserDetails = JsonSerializer.Deserialize<Dictionary<string, string>>(postRequestBody);
-                            }
-                            catch (JsonException ex)
-                            {
-                                _logger.LogError(ex, "Error deserializing JSON request body");
-                                return HttpResponse.BadRequest("Invalid JSON format");
-                            }
-                            if (postUserDetails == null)
-                            {
-                                return HttpResponse.BadRequest("Request body is empty or invalid");
-                            }
-                            return await HandlePostRequest(path, postUserDetails);
+                            return HttpResponse.BadRequest("User token or opponent token is missing");
                         }
-                    case "GET":
-                        return await HandleGetRequest(path, requestLines);
-                    case "PUT":
-                        var putRequestBody = requestLines.Last();
-                        if (path == "/deck")
+
+                        string userToken = battleDetails["userToken"];
+                        string opponentToken = battleDetails["opponentToken"];
+                        return await _battleHandler.HandleBattle(userToken, opponentToken);
+                    }
+                    else if (path == "/users")
+                    {
+                        Dictionary<string, string>? userDetails;
+                        try
                         {
-                            List<string>? cardIds;
-                            try
-                            {
-                                cardIds = JsonSerializer.Deserialize<List<string>>(putRequestBody);
-                            }
-                            catch (JsonException ex)
-                            {
-                                _logger.LogError(ex, "Error deserializing JSON request body");
-                                return HttpResponse.BadRequest("Invalid JSON format");
-                            }
-                            if (cardIds == null || cardIds.Count == 0)
-                            {
-                                return HttpResponse.BadRequest("Request body is empty or invalid");
-                            }
-                            string? token = GetTokenFromHeaders(requestLines);
-                            if (token == null)
-                            {
-                                return HttpResponse.Unauthorized("Authorization header is missing or invalid");
-                            }
-                            return await _userHandler.HandleAddCardsToDeck(token, cardIds);
+                            userDetails = JsonSerializer.Deserialize<Dictionary<string, string>>(postRequestBody);
                         }
-                        else
+                        catch (JsonException ex)
                         {
-                            Dictionary<string, string>? putUserDetails;
-                            try
-                            {
-                                putUserDetails = JsonSerializer.Deserialize<Dictionary<string, string>>(putRequestBody);
-                            }
-                            catch (JsonException ex)
-                            {
-                                _logger.LogError(ex, "Error deserializing JSON request body");
-                                return HttpResponse.BadRequest("Invalid JSON format");
-                            }
-                            if (putUserDetails == null)
-                            {
-                                return HttpResponse.BadRequest("Request body is empty or invalid");
-                            }
-                            return await HandlePutRequest(path, putUserDetails, requestLines);
+                            _logger.LogError(ex, "Error deserializing JSON request body");
+                            return HttpResponse.BadRequest("Invalid JSON format");
                         }
-                    default:
-                        return HttpResponse.NotFound();
-                }
+
+                        if (userDetails == null)
+                        {
+                            return HttpResponse.BadRequest("Request body is empty or invalid");
+                        }
+
+                        return await _userHandler.HandleRegister(userDetails);
+                    }
+                    else if (path == "/sessions")
+                    {
+                        Dictionary<string, string>? userDetails;
+                        try
+                        {
+                            userDetails = JsonSerializer.Deserialize<Dictionary<string, string>>(postRequestBody);
+                        }
+                        catch (JsonException ex)
+                        {
+                            _logger.LogError(ex, "Error deserializing JSON request body");
+                            return HttpResponse.BadRequest("Invalid JSON format");
+                        }
+
+                        if (userDetails == null)
+                        {
+                            return HttpResponse.BadRequest("Request body is empty or invalid");
+                        }
+
+                        return await _sessionHandler.HandleLogin(userDetails);
+                    }
+                    break;
+                case "GET":
+                    return await HandleGetRequest(path, requestLines);
+                case "PUT":
+                    var putRequestBody = requestLines.Last();
+                    if (string.IsNullOrWhiteSpace(putRequestBody))
+                    {
+                        return HttpResponse.BadRequest("Request body is empty");
+                    }
+
+                    if (path == "/deck")
+                    {
+                        List<string>? cardIds;
+                        try
+                        {
+                            cardIds = JsonSerializer.Deserialize<List<string>>(putRequestBody);
+                        }
+                        catch (JsonException ex)
+                        {
+                            _logger.LogError(ex, "Error deserializing JSON request body");
+                            return HttpResponse.BadRequest("Invalid JSON format");
+                        }
+                        if (cardIds == null || cardIds.Count == 0)
+                        {
+                            return HttpResponse.BadRequest("Request body is empty or invalid");
+                        }
+                        string? token = GetTokenFromHeaders(requestLines);
+                        if (token == null)
+                        {
+                            return HttpResponse.Unauthorized("Authorization header is missing or invalid");
+                        }
+                        return await _userHandler.HandleAddCardsToDeck(token, cardIds);
+                    }
+                    else
+                    {
+                        Dictionary<string, string>? putUserDetails;
+                        try
+                        {
+                            putUserDetails = JsonSerializer.Deserialize<Dictionary<string, string>>(putRequestBody);
+                        }
+                        catch (JsonException ex)
+                        {
+                            _logger.LogError(ex, "Error deserializing JSON request body");
+                            return HttpResponse.BadRequest("Invalid JSON format");
+                        }
+                        if (putUserDetails == null)
+                        {
+                            return HttpResponse.BadRequest("Request body is empty or invalid");
+                        }
+                        return await HandlePutRequest(path, putUserDetails, requestLines);
+                    }
+                default:
+                    return HttpResponse.NotFound();
             }
         }
-
-        return HttpResponse.BadRequest();
     }
+
+    return HttpResponse.BadRequest();
+}
 
     private async Task<HttpResponse> HandlePostTransactionsPackages(string[] requestLines)
     {
@@ -177,20 +236,6 @@ public class RequestExecutor
         {
             _logger.LogError(ex, "Error while creating package");
             return HttpResponse.InternalServerError();
-        }
-    }
-
-    private async Task<HttpResponse> HandlePostRequest(string path, Dictionary<string, string> userDetails)
-    {
-        switch (path)
-        {
-            case "/users":
-                return await _userHandler.HandleRegister(userDetails);
-            case "/sessions":
-                return await _sessionHandler.HandleLogin(userDetails);
-
-            default:
-                return HttpResponse.NotFound();
         }
     }
 

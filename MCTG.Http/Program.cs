@@ -17,10 +17,12 @@ var host = Host.CreateDefaultBuilder(args)
     {
         services.AddSingleton<IUserRepository, NpgsqlUserRepository>();
         services.AddSingleton<ICardRepository, NpgsqlCardRepository>();
+        services.AddSingleton<IBattleRepository, NpgsqlBattleRepository>(); // Add BattleRepository
         services.AddSingleton<UserHandler>();
         services.AddSingleton<SessionHandler>();
         services.AddSingleton<PackageHandler>();
         services.AddSingleton<TransactionHandler>();
+        services.AddSingleton<BattleHandler>(); // Add BattleHandler
         services.AddSingleton<RequestExecutor>();
         services.AddHostedService<TCPListener>();
     }).Build();

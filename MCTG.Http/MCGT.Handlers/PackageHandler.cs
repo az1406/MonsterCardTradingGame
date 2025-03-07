@@ -36,16 +36,18 @@ public class PackageHandler
         foreach (var cardDetails in cards)
         {
             var cardInfo = cardDetails.Split('|');
-            if (cardInfo.Length != 3)
+            if (cardInfo.Length != 5)
             {
-                return HttpResponse.BadRequest("Each card must have an ID, name, and type.");
+                return HttpResponse.BadRequest("Each card must have an ID, name, element type, spell status, and damage.");
             }
 
             var card = new Card
             {
                 Id = cardInfo[0],
                 Name = cardInfo[1],
-                CardType = cardInfo[2],
+                ElementType = cardInfo[2],
+                IsSpell = bool.Parse(cardInfo[3]),
+                Damage = double.Parse(cardInfo[4]),
                 PackageNumber = packageNumber
             };
 

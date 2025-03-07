@@ -73,21 +73,47 @@ public class RequestExecutor
                         return await HandleGetRequest(path, requestLines);
                     case "PUT":
                         var putRequestBody = requestLines.Last();
-                        Dictionary<string, string>? putUserDetails;
-                        try
+                        if (path == "/deck")
                         {
-                            putUserDetails = JsonSerializer.Deserialize<Dictionary<string, string>>(putRequestBody);
+                            List<string>? cardIds;
+                            try
+                            {
+                                cardIds = JsonSerializer.Deserialize<List<string>>(putRequestBody);
+                            }
+                            catch (JsonException ex)
+                            {
+                                _logger.LogError(ex, "Error deserializing JSON request body");
+                                return HttpResponse.BadRequest("Invalid JSON format");
+                            }
+                            if (cardIds == null || cardIds.Count == 0)
+                            {
+                                return HttpResponse.BadRequest("Request body is empty or invalid");
+                            }
+                            string? token = GetTokenFromHeaders(requestLines);
+                            if (token == null)
+                            {
+                                return HttpResponse.Unauthorized("Authorization header is missing or invalid");
+                            }
+                            return await _userHandler.HandleAddCardsToDeck(token, cardIds);
                         }
-                        catch (JsonException ex)
+                        else
                         {
-                            _logger.LogError(ex, "Error deserializing JSON request body");
-                            return HttpResponse.BadRequest("Invalid JSON format");
+                            Dictionary<string, string>? putUserDetails;
+                            try
+                            {
+                                putUserDetails = JsonSerializer.Deserialize<Dictionary<string, string>>(putRequestBody);
+                            }
+                            catch (JsonException ex)
+                            {
+                                _logger.LogError(ex, "Error deserializing JSON request body");
+                                return HttpResponse.BadRequest("Invalid JSON format");
+                            }
+                            if (putUserDetails == null)
+                            {
+                                return HttpResponse.BadRequest("Request body is empty or invalid");
+                            }
+                            return await HandlePutRequest(path, putUserDetails, requestLines);
                         }
-                        if (putUserDetails == null)
-                        {
-                            return HttpResponse.BadRequest("Request body is empty or invalid");
-                        }
-                        return await HandlePutRequest(path, putUserDetails, requestLines);
                     default:
                         return HttpResponse.NotFound();
                 }
@@ -167,39 +193,39 @@ public class RequestExecutor
                 return HttpResponse.NotFound();
         }
     }
-    
+
     private async Task<HttpResponse> HandleGetRequest(string path, string[] requestLines)
+    {
+        if (path.StartsWith("/users/"))
         {
-            if (path.StartsWith("/users/"))
+            var username = path.Substring("/users/".Length);
+            var user = await _userRepository.GetByUserName(username);
+
+            if (user == null)
             {
-                var username = path.Substring("/users/".Length);
-                var user = await _userRepository.GetByUserName(username);
-
-                if (user == null)
-                {
-                    return HttpResponse.NotFound("User not found");
-                }
-
-                string? token = GetTokenFromHeaders(requestLines);
-                if (token == null || !CheckAuthorization(token, user.Token))
-                {
-                    return HttpResponse.Unauthorized("Authorization header is missing or invalid");
-                }
-
-                return await _userHandler.HandleProfile(new Dictionary<string, string> { { "Username", username }, { "Token", token } });
+                return HttpResponse.NotFound("User not found");
             }
-            else if (path == "/deck")
+
+            string? token = GetTokenFromHeaders(requestLines);
+            if (token == null || !CheckAuthorization(token, user.Token))
             {
-                string? token = GetTokenFromHeaders(requestLines);
-                if (token == null)
-                {
-                    return HttpResponse.Unauthorized("Authorization header is missing or invalid");
-                }
-
-                return await _userHandler.HandleGetDeck(token);
+                return HttpResponse.Unauthorized("Authorization header is missing or invalid");
             }
-            return HttpResponse.NotFound();
+
+            return await _userHandler.HandleProfile(new Dictionary<string, string> { { "Username", username }, { "Token", token } });
         }
+        else if (path == "/deck")
+        {
+            string? token = GetTokenFromHeaders(requestLines);
+            if (token == null)
+            {
+                return HttpResponse.Unauthorized("Authorization header is missing or invalid");
+            }
+
+            return await _userHandler.HandleGetDeck(token);
+        }
+        return HttpResponse.NotFound();
+    }
 
     private async Task<HttpResponse> HandlePutRequest(string path, Dictionary<string, string> userDetails, string[] requestLines)
     {
@@ -229,31 +255,6 @@ public class RequestExecutor
             }
 
             return response;
-        }
-        else if (path == "/deck")
-        {
-            string? token = GetTokenFromHeaders(requestLines);
-            if (token == null)
-            {
-                return HttpResponse.Unauthorized("Authorization header is missing or invalid");
-            }
-
-            List<string>? cardIds;
-            try
-            {
-                cardIds = JsonSerializer.Deserialize<List<string>>(userDetails["CardIds"]);
-            }
-            catch (JsonException ex)
-            {
-                _logger.LogError(ex, "Error deserializing JSON request body");
-                return HttpResponse.BadRequest("Invalid JSON format");
-            }
-            if (cardIds == null || cardIds.Count == 0)
-            {
-                return HttpResponse.BadRequest("Request body is empty or invalid");
-            }
-
-            return await _userHandler.HandleAddCardsToDeck(token, cardIds);
         }
         return HttpResponse.NotFound();
     }

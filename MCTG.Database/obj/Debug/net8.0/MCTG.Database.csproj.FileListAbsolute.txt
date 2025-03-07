@@ -34,3 +34,4 @@ C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Database\obj\Debug\net8.
 C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Database\obj\Debug\net8.0\refint\MCTG.Database.dll
 C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Database\obj\Debug\net8.0\MCTG.Database.pdb
 C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Database\obj\Debug\net8.0\ref\MCTG.Database.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Database\obj\Debug\net8.0\MCTG.Database.sourcelink.json

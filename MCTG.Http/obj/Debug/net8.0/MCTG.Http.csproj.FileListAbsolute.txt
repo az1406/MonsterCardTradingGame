@@ -120,3 +120,4 @@ C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\obj\Debug\net8.0\re
 C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\obj\Debug\net8.0\MCTG.Http.pdb
 C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\obj\Debug\net8.0\MCTG.Http.genruntimeconfig.cache
 C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\obj\Debug\net8.0\ref\MCTG.Http.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\obj\Debug\net8.0\MCTG.Http.sourcelink.json

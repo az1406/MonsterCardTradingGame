@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MCTG.Database")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03a8404ba64244a40c41b1a2af80d22434bfd951")]
 [assembly: System.Reflection.AssemblyProductAttribute("MCTG.Database")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MCTG.Database")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

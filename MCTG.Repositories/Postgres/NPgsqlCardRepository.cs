@@ -33,8 +33,10 @@ public class NpgsqlCardRepository : AbstractRepository, ICardRepository
                 {
                     Id = reader.GetString(reader.GetOrdinal("id")),
                     Name = reader.GetString(reader.GetOrdinal("name")),
-                    CardType = reader.GetString(reader.GetOrdinal("card_type")),
-                    PackageNumber = reader.GetInt32(reader.GetOrdinal("package_number"))
+                    ElementType = reader.GetString(reader.GetOrdinal("element_type")),
+                    PackageNumber = reader.GetInt32(reader.GetOrdinal("package_number")),
+                    IsSpell = reader.GetBoolean(reader.GetOrdinal("is_spell")),
+                    Damage = reader.GetDouble(reader.GetOrdinal("damage"))
                 };
             }
             return null;
@@ -60,11 +62,13 @@ public class NpgsqlCardRepository : AbstractRepository, ICardRepository
             }
 
             await using var command = connection.CreateCommand();
-            command.CommandText = "INSERT INTO cards (id, name, card_type, package_number) VALUES (@Id, @Name, @CardType, @PackageNumber)";
+            command.CommandText = "INSERT INTO cards (id, name, element_type, package_number, is_spell, damage) VALUES (@Id, @Name, @ElementType, @PackageNumber, @IsSpell, @Damage)";
             command.Parameters.Add(new NpgsqlParameter("@Id", card.Id));
             command.Parameters.Add(new NpgsqlParameter("@Name", card.Name));
-            command.Parameters.Add(new NpgsqlParameter("@CardType", card.CardType));
+            command.Parameters.Add(new NpgsqlParameter("@ElementType", card.ElementType));
             command.Parameters.Add(new NpgsqlParameter("@PackageNumber", card.PackageNumber));
+            command.Parameters.Add(new NpgsqlParameter("@IsSpell", card.IsSpell));
+            command.Parameters.Add(new NpgsqlParameter("@Damage", card.Damage));
             await command.ExecuteNonQueryAsync();
         }
         catch (Exception e)
@@ -81,11 +85,13 @@ public class NpgsqlCardRepository : AbstractRepository, ICardRepository
             await using DbConnection connection = CreateConnection();
             await connection.OpenAsync();
             await using var command = connection.CreateCommand();
-            command.CommandText = "UPDATE cards SET name = @Name, card_type = @CardType, package_number = @PackageNumber WHERE id = @Id";
+            command.CommandText = "UPDATE cards SET name = @Name, element_type = @ElementType, package_number = @PackageNumber, is_spell = @IsSpell, damage = @Damage WHERE id = @Id";
             command.Parameters.Add(new NpgsqlParameter("@Id", card.Id));
             command.Parameters.Add(new NpgsqlParameter("@Name", card.Name));
-            command.Parameters.Add(new NpgsqlParameter("@CardType", card.CardType));
+            command.Parameters.Add(new NpgsqlParameter("@ElementType", card.ElementType));
             command.Parameters.Add(new NpgsqlParameter("@PackageNumber", card.PackageNumber));
+            command.Parameters.Add(new NpgsqlParameter("@IsSpell", card.IsSpell));
+            command.Parameters.Add(new NpgsqlParameter("@Damage", card.Damage));
             await command.ExecuteNonQueryAsync();
         }
         catch (Exception e)
@@ -131,8 +137,10 @@ public class NpgsqlCardRepository : AbstractRepository, ICardRepository
                 {
                     Id = reader.GetString(reader.GetOrdinal("id")),
                     Name = reader.GetString(reader.GetOrdinal("name")),
-                    CardType = reader.GetString(reader.GetOrdinal("card_type")),
-                    PackageNumber = reader.GetInt32(reader.GetOrdinal("package_number"))
+                    ElementType = reader.GetString(reader.GetOrdinal("element_type")),
+                    PackageNumber = reader.GetInt32(reader.GetOrdinal("package_number")),
+                    IsSpell = reader.GetBoolean(reader.GetOrdinal("is_spell")),
+                    Damage = reader.GetDouble(reader.GetOrdinal("damage"))
                 });
             }
 
@@ -202,8 +210,10 @@ public class NpgsqlCardRepository : AbstractRepository, ICardRepository
                 {
                     Id = reader.GetString(reader.GetOrdinal("id")),
                     Name = reader.GetString(reader.GetOrdinal("name")),
-                    CardType = reader.GetString(reader.GetOrdinal("card_type")),
-                    PackageNumber = reader.GetInt32(reader.GetOrdinal("package_number"))
+                    ElementType = reader.GetString(reader.GetOrdinal("element_type")),
+                    PackageNumber = reader.GetInt32(reader.GetOrdinal("package_number")),
+                    IsSpell = reader.GetBoolean(reader.GetOrdinal("is_spell")),
+                    Damage = reader.GetDouble(reader.GetOrdinal("damage"))
                 });
             }
 

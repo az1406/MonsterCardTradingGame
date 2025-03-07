@@ -15,8 +15,10 @@ CREATE TABLE IF NOT EXISTS users (
 CREATE TABLE IF NOT EXISTS cards (
                                      id VARCHAR(255) PRIMARY KEY,
                                      name VARCHAR(255) NOT NULL,
-                                     card_type VARCHAR(255) NOT NULL,
-                                     package_number INT NOT NULL
+                                     element_type VARCHAR(255) NOT NULL,
+                                     package_number INT NOT NULL,
+                                     is_spell BOOLEAN NOT NULL,
+                                     damage DOUBLE PRECISION NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS stack (

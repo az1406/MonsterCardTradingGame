@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS users (
                                      image TEXT,
                                      elo INT,
                                      coins INT,
-                                     games_played INT
+                                     games_played INT 
 );
 
 CREATE TABLE IF NOT EXISTS cards (

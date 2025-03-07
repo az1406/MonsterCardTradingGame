@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MCTG.Repositories")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9cbdffdde513b11130787dacf5d3a47314d994ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9ff54992bc2a927163ac6de9a2f8a2d9e807f22")]
 [assembly: System.Reflection.AssemblyProductAttribute("MCTG.Repositories")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MCTG.Repositories")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,36 @@
+C:\Users\aleks\Projects\MCGT\MCTG.Database\bin\Debug\net8.0\MCTG.Database.deps.json
+C:\Users\aleks\Projects\MCGT\MCTG.Database\bin\Debug\net8.0\MCTG.Database.dll
+C:\Users\aleks\Projects\MCGT\MCTG.Database\bin\Debug\net8.0\MCTG.Database.pdb
+C:\Users\aleks\Projects\MCGT\MCTG.Database\obj\Debug\net8.0\MCTG.Database.csproj.AssemblyReference.cache
+C:\Users\aleks\Projects\MCGT\MCTG.Database\obj\Debug\net8.0\MCTG.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleks\Projects\MCGT\MCTG.Database\obj\Debug\net8.0\MCTG.Database.AssemblyInfoInputs.cache
+C:\Users\aleks\Projects\MCGT\MCTG.Database\obj\Debug\net8.0\MCTG.Database.AssemblyInfo.cs
+C:\Users\aleks\Projects\MCGT\MCTG.Database\obj\Debug\net8.0\MCTG.Database.csproj.CoreCompileInputs.cache
+C:\Users\aleks\Projects\MCGT\MCTG.Database\obj\Debug\net8.0\MCTG.Database.dll
+C:\Users\aleks\Projects\MCGT\MCTG.Database\obj\Debug\net8.0\refint\MCTG.Database.dll
+C:\Users\aleks\Projects\MCGT\MCTG.Database\obj\Debug\net8.0\MCTG.Database.pdb
+C:\Users\aleks\Projects\MCGT\MCTG.Database\obj\Debug\net8.0\ref\MCTG.Database.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Database\bin\Debug\net8.0\MCTG.Database.deps.json
+C:\Users\Aldin\Desktop\MCTG\MCTG.Database\bin\Debug\net8.0\MCTG.Database.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Database\bin\Debug\net8.0\MCTG.Database.pdb
+C:\Users\Aldin\Desktop\MCTG\MCTG.Database\obj\Debug\net8.0\MCTG.Database.csproj.AssemblyReference.cache
+C:\Users\Aldin\Desktop\MCTG\MCTG.Database\obj\Debug\net8.0\MCTG.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aldin\Desktop\MCTG\MCTG.Database\obj\Debug\net8.0\MCTG.Database.AssemblyInfoInputs.cache
+C:\Users\Aldin\Desktop\MCTG\MCTG.Database\obj\Debug\net8.0\MCTG.Database.AssemblyInfo.cs
+C:\Users\Aldin\Desktop\MCTG\MCTG.Database\obj\Debug\net8.0\MCTG.Database.csproj.CoreCompileInputs.cache
+C:\Users\Aldin\Desktop\MCTG\MCTG.Database\obj\Debug\net8.0\MCTG.Database.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Database\obj\Debug\net8.0\refint\MCTG.Database.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Database\obj\Debug\net8.0\MCTG.Database.pdb
+C:\Users\Aldin\Desktop\MCTG\MCTG.Database\obj\Debug\net8.0\ref\MCTG.Database.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Database\bin\Debug\net8.0\MCTG.Database.deps.json
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Database\bin\Debug\net8.0\MCTG.Database.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Database\bin\Debug\net8.0\MCTG.Database.pdb
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Database\obj\Debug\net8.0\MCTG.Database.csproj.AssemblyReference.cache
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Database\obj\Debug\net8.0\MCTG.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Database\obj\Debug\net8.0\MCTG.Database.AssemblyInfoInputs.cache
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Database\obj\Debug\net8.0\MCTG.Database.AssemblyInfo.cs
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Database\obj\Debug\net8.0\MCTG.Database.csproj.CoreCompileInputs.cache
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Database\obj\Debug\net8.0\MCTG.Database.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Database\obj\Debug\net8.0\refint\MCTG.Database.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Database\obj\Debug\net8.0\MCTG.Database.pdb
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Database\obj\Debug\net8.0\ref\MCTG.Database.dll

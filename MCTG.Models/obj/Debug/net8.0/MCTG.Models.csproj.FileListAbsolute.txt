@@ -1,0 +1,22 @@
+C:\Users\Aldin\Desktop\MCTG\MCTG.Models\bin\Debug\net8.0\MCTG.Models.deps.json
+C:\Users\Aldin\Desktop\MCTG\MCTG.Models\bin\Debug\net8.0\MCTG.Models.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Models\bin\Debug\net8.0\MCTG.Models.pdb
+C:\Users\Aldin\Desktop\MCTG\MCTG.Models\obj\Debug\net8.0\MCTG.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aldin\Desktop\MCTG\MCTG.Models\obj\Debug\net8.0\MCTG.Models.AssemblyInfoInputs.cache
+C:\Users\Aldin\Desktop\MCTG\MCTG.Models\obj\Debug\net8.0\MCTG.Models.AssemblyInfo.cs
+C:\Users\Aldin\Desktop\MCTG\MCTG.Models\obj\Debug\net8.0\MCTG.Models.csproj.CoreCompileInputs.cache
+C:\Users\Aldin\Desktop\MCTG\MCTG.Models\obj\Debug\net8.0\MCTG.Models.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Models\obj\Debug\net8.0\refint\MCTG.Models.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Models\obj\Debug\net8.0\MCTG.Models.pdb
+C:\Users\Aldin\Desktop\MCTG\MCTG.Models\obj\Debug\net8.0\ref\MCTG.Models.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Models\bin\Debug\net8.0\MCTG.Models.deps.json
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Models\bin\Debug\net8.0\MCTG.Models.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Models\bin\Debug\net8.0\MCTG.Models.pdb
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Models\obj\Debug\net8.0\MCTG.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Models\obj\Debug\net8.0\MCTG.Models.AssemblyInfoInputs.cache
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Models\obj\Debug\net8.0\MCTG.Models.AssemblyInfo.cs
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Models\obj\Debug\net8.0\MCTG.Models.csproj.CoreCompileInputs.cache
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Models\obj\Debug\net8.0\MCTG.Models.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Models\obj\Debug\net8.0\refint\MCTG.Models.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Models\obj\Debug\net8.0\MCTG.Models.pdb
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Models\obj\Debug\net8.0\ref\MCTG.Models.dll

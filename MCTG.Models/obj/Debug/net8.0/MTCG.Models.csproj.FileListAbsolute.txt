@@ -1,0 +1,11 @@
+C:\Users\aleks\Projects\MCGT\MTCG.Models\bin\Debug\net8.0\MTCG.Models.deps.json
+C:\Users\aleks\Projects\MCGT\MTCG.Models\bin\Debug\net8.0\MTCG.Models.dll
+C:\Users\aleks\Projects\MCGT\MTCG.Models\bin\Debug\net8.0\MTCG.Models.pdb
+C:\Users\aleks\Projects\MCGT\MTCG.Models\obj\Debug\net8.0\MTCG.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleks\Projects\MCGT\MTCG.Models\obj\Debug\net8.0\MTCG.Models.AssemblyInfoInputs.cache
+C:\Users\aleks\Projects\MCGT\MTCG.Models\obj\Debug\net8.0\MTCG.Models.AssemblyInfo.cs
+C:\Users\aleks\Projects\MCGT\MTCG.Models\obj\Debug\net8.0\MTCG.Models.csproj.CoreCompileInputs.cache
+C:\Users\aleks\Projects\MCGT\MTCG.Models\obj\Debug\net8.0\MTCG.Models.dll
+C:\Users\aleks\Projects\MCGT\MTCG.Models\obj\Debug\net8.0\refint\MTCG.Models.dll
+C:\Users\aleks\Projects\MCGT\MTCG.Models\obj\Debug\net8.0\MTCG.Models.pdb
+C:\Users\aleks\Projects\MCGT\MTCG.Models\obj\Debug\net8.0\ref\MTCG.Models.dll

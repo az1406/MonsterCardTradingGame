@@ -1,0 +1,122 @@
+C:\Users\aleks\Projects\MCGT\MCTG.Http\bin\Debug\net8.0\MCTG.Http.deps.json
+C:\Users\aleks\Projects\MCGT\MCTG.Http\bin\Debug\net8.0\MCTG.Http.dll
+C:\Users\aleks\Projects\MCGT\MCTG.Http\bin\Debug\net8.0\MCTG.Http.pdb
+C:\Users\aleks\Projects\MCGT\MCTG.Http\obj\Debug\net8.0\MCTG.Http.csproj.AssemblyReference.cache
+C:\Users\aleks\Projects\MCGT\MCTG.Http\obj\Debug\net8.0\MCTG.Http.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleks\Projects\MCGT\MCTG.Http\obj\Debug\net8.0\MCTG.Http.AssemblyInfoInputs.cache
+C:\Users\aleks\Projects\MCGT\MCTG.Http\obj\Debug\net8.0\MCTG.Http.AssemblyInfo.cs
+C:\Users\aleks\Projects\MCGT\MCTG.Http\obj\Debug\net8.0\MCTG.Http.csproj.CoreCompileInputs.cache
+C:\Users\aleks\Projects\MCGT\MCTG.Http\obj\Debug\net8.0\MCTG.Http.dll
+C:\Users\aleks\Projects\MCGT\MCTG.Http\obj\Debug\net8.0\refint\MCTG.Http.dll
+C:\Users\aleks\Projects\MCGT\MCTG.Http\obj\Debug\net8.0\MCTG.Http.pdb
+C:\Users\aleks\Projects\MCGT\MCTG.Http\obj\Debug\net8.0\ref\MCTG.Http.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\MCTG.Http.deps.json
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\MCTG.Http.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\MCTG.Http.pdb
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\obj\Debug\net8.0\MCTG.Http.csproj.AssemblyReference.cache
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\obj\Debug\net8.0\MCTG.Http.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\obj\Debug\net8.0\MCTG.Http.AssemblyInfoInputs.cache
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\obj\Debug\net8.0\MCTG.Http.AssemblyInfo.cs
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\obj\Debug\net8.0\MCTG.Http.csproj.CoreCompileInputs.cache
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\obj\Debug\net8.0\MCTG.Http.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\obj\Debug\net8.0\refint\MCTG.Http.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\obj\Debug\net8.0\MCTG.Http.pdb
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\obj\Debug\net8.0\ref\MCTG.Http.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\MCTG.Http.exe
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\MCTG.Http.runtimeconfig.json
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Hosting.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Logging.Console.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\Npgsql.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\MCTG.Database.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\MCTG.Models.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\MCTG.Repositories.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\MCTG.Database.pdb
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\MCTG.Repositories.pdb
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\MCTG.Models.pdb
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\obj\Debug\net8.0\MCTG.Http.csproj.Up2Date
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\obj\Debug\net8.0\MCTG.Http.genruntimeconfig.cache
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\appsettings.json
+C:\Users\Aldin\Desktop\MCTG\MCTG.Http\bin\Debug\net8.0\init.sql
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\appsettings.json
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\init.sql
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\MCTG.Http.exe
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\MCTG.Http.deps.json
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\MCTG.Http.runtimeconfig.json
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\MCTG.Http.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\MCTG.Http.pdb
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Hosting.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Logging.Console.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\Npgsql.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\MCTG.Database.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\MCTG.Models.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\MCTG.Repositories.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\MCTG.Database.pdb
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\MCTG.Repositories.pdb
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\bin\Debug\net8.0\MCTG.Models.pdb
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\obj\Debug\net8.0\MCTG.Http.csproj.AssemblyReference.cache
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\obj\Debug\net8.0\MCTG.Http.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\obj\Debug\net8.0\MCTG.Http.AssemblyInfoInputs.cache
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\obj\Debug\net8.0\MCTG.Http.AssemblyInfo.cs
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\obj\Debug\net8.0\MCTG.Http.csproj.CoreCompileInputs.cache
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\obj\Debug\net8.0\MCTG.Http.csproj.Up2Date
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\obj\Debug\net8.0\MCTG.Http.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\obj\Debug\net8.0\refint\MCTG.Http.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\obj\Debug\net8.0\MCTG.Http.pdb
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\obj\Debug\net8.0\MCTG.Http.genruntimeconfig.cache
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Http\obj\Debug\net8.0\ref\MCTG.Http.dll

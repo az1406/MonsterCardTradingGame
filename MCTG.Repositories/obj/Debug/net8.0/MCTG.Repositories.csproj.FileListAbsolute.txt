@@ -1,0 +1,34 @@
+C:\Users\Aldin\Desktop\MCTG\MCTG.Repositories\bin\Debug\net8.0\MCTG.Repositories.deps.json
+C:\Users\Aldin\Desktop\MCTG\MCTG.Repositories\bin\Debug\net8.0\MCTG.Repositories.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Repositories\bin\Debug\net8.0\MCTG.Repositories.pdb
+C:\Users\Aldin\Desktop\MCTG\MCTG.Repositories\bin\Debug\net8.0\MCTG.Database.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Repositories\bin\Debug\net8.0\MCTG.Models.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Repositories\bin\Debug\net8.0\MCTG.Database.pdb
+C:\Users\Aldin\Desktop\MCTG\MCTG.Repositories\bin\Debug\net8.0\MCTG.Models.pdb
+C:\Users\Aldin\Desktop\MCTG\MCTG.Repositories\obj\Debug\net8.0\MCTG.Repositories.csproj.AssemblyReference.cache
+C:\Users\Aldin\Desktop\MCTG\MCTG.Repositories\obj\Debug\net8.0\MCTG.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aldin\Desktop\MCTG\MCTG.Repositories\obj\Debug\net8.0\MCTG.Repositories.AssemblyInfoInputs.cache
+C:\Users\Aldin\Desktop\MCTG\MCTG.Repositories\obj\Debug\net8.0\MCTG.Repositories.AssemblyInfo.cs
+C:\Users\Aldin\Desktop\MCTG\MCTG.Repositories\obj\Debug\net8.0\MCTG.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\Aldin\Desktop\MCTG\MCTG.Repositories\obj\Debug\net8.0\MCTG.Rep.FEFFCC06.Up2Date
+C:\Users\Aldin\Desktop\MCTG\MCTG.Repositories\obj\Debug\net8.0\MCTG.Repositories.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Repositories\obj\Debug\net8.0\refint\MCTG.Repositories.dll
+C:\Users\Aldin\Desktop\MCTG\MCTG.Repositories\obj\Debug\net8.0\MCTG.Repositories.pdb
+C:\Users\Aldin\Desktop\MCTG\MCTG.Repositories\obj\Debug\net8.0\ref\MCTG.Repositories.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Repositories\bin\Debug\net8.0\MCTG.Repositories.deps.json
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Repositories\bin\Debug\net8.0\MCTG.Repositories.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Repositories\bin\Debug\net8.0\MCTG.Repositories.pdb
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Repositories\bin\Debug\net8.0\MCTG.Database.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Repositories\bin\Debug\net8.0\MCTG.Models.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Repositories\bin\Debug\net8.0\MCTG.Database.pdb
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Repositories\bin\Debug\net8.0\MCTG.Models.pdb
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Repositories\obj\Debug\net8.0\MCTG.Repositories.csproj.AssemblyReference.cache
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Repositories\obj\Debug\net8.0\MCTG.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Repositories\obj\Debug\net8.0\MCTG.Repositories.AssemblyInfoInputs.cache
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Repositories\obj\Debug\net8.0\MCTG.Repositories.AssemblyInfo.cs
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Repositories\obj\Debug\net8.0\MCTG.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Repositories\obj\Debug\net8.0\MCTG.Rep.FEFFCC06.Up2Date
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Repositories\obj\Debug\net8.0\MCTG.Repositories.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Repositories\obj\Debug\net8.0\refint\MCTG.Repositories.dll
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Repositories\obj\Debug\net8.0\MCTG.Repositories.pdb
+C:\Users\Aldin\Desktop\Neuer Ordner\MCTG_sa_editom\MCTG.Repositories\obj\Debug\net8.0\ref\MCTG.Repositories.dll

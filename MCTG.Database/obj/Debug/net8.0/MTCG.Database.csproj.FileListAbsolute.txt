@@ -1,0 +1,12 @@
+C:\Users\aleks\Projects\MCGT\MTCG.Database\bin\Debug\net8.0\MTCG.Database.deps.json
+C:\Users\aleks\Projects\MCGT\MTCG.Database\bin\Debug\net8.0\MTCG.Database.dll
+C:\Users\aleks\Projects\MCGT\MTCG.Database\bin\Debug\net8.0\MTCG.Database.pdb
+C:\Users\aleks\Projects\MCGT\MTCG.Database\obj\Debug\net8.0\MTCG.Database.csproj.AssemblyReference.cache
+C:\Users\aleks\Projects\MCGT\MTCG.Database\obj\Debug\net8.0\MTCG.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleks\Projects\MCGT\MTCG.Database\obj\Debug\net8.0\MTCG.Database.AssemblyInfoInputs.cache
+C:\Users\aleks\Projects\MCGT\MTCG.Database\obj\Debug\net8.0\MTCG.Database.AssemblyInfo.cs
+C:\Users\aleks\Projects\MCGT\MTCG.Database\obj\Debug\net8.0\MTCG.Database.csproj.CoreCompileInputs.cache
+C:\Users\aleks\Projects\MCGT\MTCG.Database\obj\Debug\net8.0\MTCG.Database.dll
+C:\Users\aleks\Projects\MCGT\MTCG.Database\obj\Debug\net8.0\refint\MTCG.Database.dll
+C:\Users\aleks\Projects\MCGT\MTCG.Database\obj\Debug\net8.0\MTCG.Database.pdb
+C:\Users\aleks\Projects\MCGT\MTCG.Database\obj\Debug\net8.0\ref\MTCG.Database.dll
